@@ -11,11 +11,12 @@ appear
 Character name: text 
 quantity of comics they appear in: int
 
-## Section 1. Architecture
-[Architecture](image/Arch.png)
-* [Desenho da arquitetura utilizada](https://raw.githubusercontent.com/lopesdiego12/Marvel/blob/main/image/arch_design.png)
+## Architecture
 
-![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/blob/main/image/arch_design.png)
+* [Desenho da arquitetura utilizada](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/arch_design.png)
 
+![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/arch_design.png)
+
+---
 
 ## Section 2. Process
