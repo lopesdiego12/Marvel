@@ -13,10 +13,20 @@ quantity of comics they appear in: int
 
 ## Architecture
 
-* [Desenho da arquitetura utilizada](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/arch_design.png)
+* [Solution Design](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/arch_design.png)
 
 ![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/arch_design.png)
 
 ---
 
-## Section 2. Process
+## Pipeline
+
+* [Pipeline](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/pipeline.png)
+
+![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/pipeline.png)
+
+---
+
+## Pipeline
+
+
