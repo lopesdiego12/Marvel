@@ -9,6 +9,7 @@ https://developer.marvel.com/docs
 appear
 
 Character name: text 
+
 quantity of comics they appear in: int
 
 ## Architecture
