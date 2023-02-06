@@ -64,5 +64,5 @@ Docker compose
 ```docker compose up ```
 
 - Run dag in airflow
-Acess [airflow ui](http://localhost:8080/home)
-and run Marvel dag
+
+Acess [airflow ui](http://localhost:8080/home) and run Marvel dag
