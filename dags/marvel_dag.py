@@ -92,7 +92,11 @@ with dag:
 
     results = DummyOperator(task_id="results")
     
-    final_results = DummyOperator(task_id="final_results")
+    final_results = PostgresOperator(
+        task_id="final_results",
+        postgres_conn_id="postgres_default",
+        sql="/files/sql/select_comic.sql",
+        )
 
     end_flow_task = DummyOperator(task_id="end_flow")
 

@@ -1,11 +1,32 @@
-CREATE TABLE IF NOT EXISTS characters (
+DROP TABLE if exists comics;
+CREATE TABLE comics (    
     id INT PRIMARY KEY  NOT NULL,
-    name VARCHAR NOT NULL,
+    digitalId INT,
+    title VARCHAR,
+    issueNumber VARCHAR,
+    variantDescription VARCHAR,
     description VARCHAR,
     modified VARCHAR,
+    isbn VARCHAR,
+    upc VARCHAR,
+    diamondCode VARCHAR,
+    ean VARCHAR,
+    issn VARCHAR,
+    format VARCHAR,
+    pageCount VARCHAR,
+    textObjects VARCHAR,
     resourceURI VARCHAR,
+    urls VARCHAR,
+    series VARCHAR,
+    variants VARCHAR,
+    collections VARCHAR,
+    collectedIssues VARCHAR,
+    dates VARCHAR,
+    prices VARCHAR,
     thumbnail VARCHAR,
-    path VARCHAR,
-    comics VARCHAR,
-    items VARCHAR
+    images VARCHAR,
+    creators VARCHAR,
+    characters VARCHAR,
+    stories VARCHAR,
+    events VARCHAR
     );

@@ -1,3 +1,3 @@
 COPY comics
-FROM '/opt/airflow/dags/files/comics_data.csv'
-DELIMITER ',' csv header;
+FROM '/tmp/comics_data.csv'
+DELIMITER ',' CSV HEADER;
