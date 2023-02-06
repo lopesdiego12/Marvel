@@ -54,12 +54,15 @@ Docker compose
 ## How to run
 
 - Clone project
+
 ```git clone https://github.com/lopesdiego12/Marvel.git ```
 
 - Make docker up
+
 ```cd Marvel ```
 
 ```docker compose up ```
+
 - Run dag in airflow
-Acess [airflow ui](localhost:8080)
+Acess [airflow ui](http://localhost:8080/home)
 and run Marvel dag
