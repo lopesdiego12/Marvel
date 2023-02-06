@@ -12,6 +12,10 @@ Character name: text
 quantity of comics they appear in: int
 
 ## Section 1. Architecture
-[Results in pdf file](Marvel/image/Arch.png)
+[Architecture](image/Arch.png)
+* [Desenho da arquitetura utilizada](https://raw.githubusercontent.com/lopesdiego12/Marvel/blob/main/image/Arch.png)
+
+![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/blob/main/image/Arch.png)
+
 
 ## Section 2. Process
