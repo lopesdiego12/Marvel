@@ -73,18 +73,20 @@ with dag:
     transform_comics = PythonOperator(
         task_id='transform_comics', 
         python_callable=read_json_comics, 
-        op_kwargs={'endpoint': 'comics'},
         dag=dag)
 
     transform_characters = PythonOperator(
         task_id='transform_characters', 
         python_callable=read_json_characters, 
-        op_kwargs={'endpoint': 'comics'},
         dag=dag)
 
     load_data_task = DummyOperator(task_id="load_data")
 
-    insert_data_comics = DummyOperator(task_id="insert_data_comics")
+    insert_data_comics = PostgresOperator(
+        task_id="insert_data_comics",
+        postgres_conn_id="postgres_default",
+        sql="/files/sql/insert_comic.sql",
+        )
 
     insert_data_characters = DummyOperator(task_id="insert_data_characters")
 

@@ -1,6 +1,7 @@
 from typing import Any, Dict, List
 
 import pandas as pd
+import csv
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.postgres_operator import PostgresOperator
@@ -46,12 +47,37 @@ def write_json(endpoint,out_json):
 
 #Read file
 def read_json_characters():
-    result = pd.read_json('/opt/airflow/dags/files/characters_data.json')
-    result.to_csv('/opt/airflow/dags/files/characters_data.json')
-    return result
+    with open('/opt/airflow/dags/files/characters_data.json') as json_file:
+        jsondata = json.load(json_file)
+    
+    data_file = open('/opt/airflow/dags/files/characters_data.csv', 'w', newline='')
+    csv_writer = csv.writer(data_file)
+ 
+    count = 0
+    for data in jsondata:
+        if count == 0:
+            header = data.keys()
+            csv_writer.writerow(header)
+            count += 1
+        csv_writer.writerow(data.values())
+ 
+    data_file.close()
 
 #Read file
 def read_json_comics():
-    result = pd.read_json('/opt/airflow/dags/files/comics_data.json')
-    result.to_csv('/opt/airflow/dags/files/comics_data.json')
-    return result
+    with open('/opt/airflow/dags/files/comics_data.json') as json_file:
+        jsondata = json.load(json_file)
+    
+    data_file = open('/opt/airflow/dags/files/comics_data.csv', 'w', newline='')
+    csv_writer = csv.writer(data_file)
+ 
+    count = 0
+    for data in jsondata:
+        if count == 0:
+            header = data.keys()
+            csv_writer.writerow(header)
+            count += 1
+        csv_writer.writerow(data.values())
+ 
+    data_file.close()
+
