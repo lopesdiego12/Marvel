@@ -16,16 +16,16 @@ quantity of comics they appear in: int
 * [Solution Design](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/arch_design.png)
 
 - Docker
-Docker compose to make environment available with airflow+postgres
+    Docker compose to make environment available with airflow+postgres
 
 - Airflow
-Airflow to orchestrate all tasks
+    Airflow to orchestrate all tasks
 
 - Postgres
-Postgres to use as airflow metadata database and Concept of DW
+    Postgres to use as airflow metadata database and Concept of DW
 
 - Python
-Python to request api data, transform, insert into database
+    Python to request api data, transform, insert into database
 
 Docker compose 
 
