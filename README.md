@@ -13,9 +13,9 @@ quantity of comics they appear in: int
 
 ## Section 1. Architecture
 [Architecture](image/Arch.png)
-* [Desenho da arquitetura utilizada](https://raw.githubusercontent.com/lopesdiego12/Marvel/blob/main/image/Arch.png)
+* [Desenho da arquitetura utilizada](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/Arch.png)
 
-![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/blob/main/image/Arch.png)
+![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/Arch.png)
 
 
 ## Section 2. Process
