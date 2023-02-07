@@ -1,4 +1,5 @@
 DROP TABLE if exists comics;
+
 CREATE TABLE comics (    
     id INT PRIMARY KEY  NOT NULL,
     digitalId INT,

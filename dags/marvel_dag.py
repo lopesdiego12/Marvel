@@ -45,13 +45,13 @@ with dag:
     create_table_comics = PostgresOperator(
         task_id="create_table_comics",
         postgres_conn_id="postgres_default",
-        sql="/files/sql/create_table_comics.sql",
+        sql="./files/sql/create_table_comics.sql",
         )
 
     create_table_characters = PostgresOperator(
         task_id="create_table_characters",
         postgres_conn_id="postgres_default",
-        sql="/files/sql/create_table_char.sql",
+        sql="./files/sql/create_table_characters.sql",
         )
 
     get_data = DummyOperator(task_id="get_data")
@@ -85,17 +85,20 @@ with dag:
     insert_data_comics = PostgresOperator(
         task_id="insert_data_comics",
         postgres_conn_id="postgres_default",
-        sql="/files/sql/insert_comic.sql",
+        sql="./files/sql/insert_comic.sql",
         )
 
-    insert_data_characters = DummyOperator(task_id="insert_data_characters")
-
+    insert_data_characters = PostgresOperator(
+        task_id="insert_data_characters",
+        postgres_conn_id="postgres_default",
+        sql="./files/sql/insert_characters.sql",
+        )
     results = DummyOperator(task_id="results")
     
     final_results = PostgresOperator(
         task_id="final_results",
         postgres_conn_id="postgres_default",
-        sql="/files/sql/select_comic.sql",
+        sql="./files/sql/select_comic.sql",
         )
 
     end_flow_task = DummyOperator(task_id="end_flow")

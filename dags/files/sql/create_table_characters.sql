@@ -2,12 +2,14 @@ DROP TABLE if exists characters;
 
 CREATE TABLE characters (
     id INT PRIMARY KEY  NOT NULL,
-    name VARCHAR NOT NULL,
+    name VARCHAR,
     description VARCHAR,
     modified VARCHAR,
-    resourceURI VARCHAR,
     thumbnail VARCHAR,
-    path VARCHAR,
+    resourceURI VARCHAR,
     comics VARCHAR,
-    items VARCHAR
+    series VARCHAR,
+    stories VARCHAR,
+    events VARCHAR,
+    urls VARCHAR
     );
