@@ -16,6 +16,8 @@ quantity of comics they appear in: int
 
 * [Solution Design](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/arch_design.png)
 
+![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/arch_design.png)
+
 - Docker
     
     Docker compose to make environment available with airflow+postgres
@@ -31,10 +33,6 @@ quantity of comics they appear in: int
 - Python
     
     Python to request api data, transform, insert into database
-
-Docker compose 
-
-![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/arch_design.png)
 
 ---
 
