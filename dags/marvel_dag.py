@@ -16,7 +16,19 @@ log = logging.getLogger(__name__)
 files_path = "/" + "/".join(Path(__file__).parts[1:-1]) + "/files"
 
 docs = """
-teste markdown
+### Purpose
+
+This dag get characters and comics data from marvel api and the final result is "Collect the data necessary to see all characters and the quantity of comics in which they appear"
+
+    - Create tables in postgres
+    - Get data from api
+    - Make some transformation to clean json file and transform to csv
+    - Insert data in Postgres
+    - Final results in csv
+#### Owner
+
+For any questions or concerns, please contact 
+[lopesdiego12@gmail.com](lopesdiego12@gmail.com).
 """
 
 default_args = {
