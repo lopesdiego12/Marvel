@@ -48,7 +48,7 @@ Docker compose
 
 ## Final Results
 
-* Final results
+* [Final results](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/final_results.csv)
 
 
 ## How to run
