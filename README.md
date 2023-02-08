@@ -38,9 +38,9 @@ quantity of comics they appear in: int
 
 ## Pipeline
 
-* [Pipeline](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/pipeline.png)
+* [Pipeline](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/pipe.png)
 
-![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/pipeline.png)
+![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/pipe.png)
 
 ---
 
