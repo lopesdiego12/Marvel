@@ -1,7 +1,7 @@
 DROP TABLE if exists comics;
 
 CREATE TABLE comics (    
-    id INT PRIMARY KEY  NOT NULL,
+    id INT  NOT NULL,
     digitalId INT,
     title VARCHAR,
     issueNumber VARCHAR,

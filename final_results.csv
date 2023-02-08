@@ -1,0 +1,834 @@
+count,name
+1880,Avengers
+1477,Spider-Man (Peter Parker)
+1344,Captain America
+1072,Iron Man
+915,Fantastic Four
+864,Hulk
+839,Daredevil
+821,X-Men
+594,Deadpool
+510,Thor
+499,Black Panther
+471,Archangel
+446,Doctor Strange
+421,Punisher
+343,Beast
+343,Black Widow
+309,Captain Marvel (Carol Danvers)
+262,Wolverine
+239,Cable
+222,Doctor Doom
+211,Cyclops
+206,Silver Surfer
+201,Alpha Flight
+200,Guardians of the Galaxy
+200,Colossus
+190,Black Cat
+189,Moon Knight
+181,Ghost Rider (Johnny Blaze)
+180,Adam Warlock
+159,Defenders
+159,Thunderbolts
+158,Hawkeye
+157,Eddie Brock
+157,Iron Fist (Danny Rand)
+154,Loki
+151,New Mutants
+149,Human Torch
+148,Spider-Man (Miles Morales)
+140,Spider-Girl (May Parker)
+139,She-Hulk (Jennifer Walters)
+138,Bishop
+137,Amadeus Cho
+136,Carnage
+135,Gambit
+125,Mary Jane Watson
+125,Ant-Man (Scott Lang)
+124,Excalibur
+123,Two-Gun Kid
+121,Ms. Marvel (Kamala Khan)
+118,Rawhide Kid
+117,Apocalypse
+117,Exiles
+114,Doctor Octopus
+109,Angel (Warren Worthington III)
+109,Captain Marvel (Mar-Vell)
+108,Spider-Man (Ultimate)
+107,Banshee (Theresa Rourke)
+106,Elektra
+106,Sub-Mariner
+103,Spider-Gwen (Gwen Stacy)
+102,Bullseye
+102,Black Bolt
+101,Captain Britain
+99,Inhumans
+98,Emma Frost
+96,Nick Fury
+93,Absorbing Man
+92,Banshee
+92,Ka-Zar
+90,Cloak
+89,J. Jonah Jameson
+89,Runaways
+85,Magneto
+85,Balder
+84,Generation X
+84,Blade
+83,Hercules
+83,Cannonball
+82,Dracula
+80,Howard The Duck
+78,Luke Cage
+77,Deathlok
+76,Bruce Banner
+76,Daken
+75,Clea
+74,Colleen Wing
+74,X-Force
+73,Man-Thing
+71,Devil Dinosaur (Devil Dinosaur)
+69,Kitty Pryde
+68,Nova
+64,Namor
+64,Havok
+64,Thing
+63,Power Pack
+63,Spider-Woman (Jessica Drew)
+62,Eternals
+60,Doc Samson
+59,Alicia Masters
+59,Dazzler
+58,Ghost Rider (Daniel Ketch)
+58,New Warriors
+58,Fantastic Four (Ultimate)
+57,Galactus
+57,Nightcrawler
+56,Betty Ross
+56,Captain Marvel (Genis-Vell)
+55,Abomination (Emil Blonsky)
+55,Quasar (Phyla-Vell)
+54,Kingpin
+54,Ares
+53,Green Goblin (Norman Osborn)
+53,Annihilus
+52,Invaders
+52,Old Man Logan (Earth-807128)
+52,A.I.M.
+51,Shang-Chi
+50,X-23
+49,Domino
+48,Jessica Jones
+48,Bucky
+48,Wonder Man
+47,Morbius
+46,Werewolf By Night
+46,Squirrel Girl
+45,Black Knight (Sir Percy of Scandia)
+45,X-Man
+45,Dark Avengers
+45,X-Men (Ultimate)
+45,Heroes For Hire
+44,Ben Urich
+44,Gwen Stacy
+44,Venom (Flash Thompson)
+44,Jane Foster
+43,Beta-Ray Bill
+43,Darkhawk
+42,Thanos
+42,Hellcat (Patsy Walker)
+41,Agents of Atlas
+41,Hawkeye (Kate Bishop)
+40,Spider-Man (2099)
+40,Ironheart (Riri Williams)
+39,Mystique
+39,Ant-Man (Hank Pym)
+39,Dum Dum Dugan
+39,Avengers (Ultimate)
+38,Scarlet Spider (Ben Reilly)
+37,Spider-Man (1602)
+37,Scarlet Witch
+37,Angela (Aldrif Odinsdottir)
+37,Baron Strucker
+37,Nova (Sam Alexander)
+37,Blink
+36,Charles Xavier
+36,Iceman
+36,Sabretooth
+36,Ant-Man (Eric O'Grady)
+36,Beast (Ultimate)
+36,Norman Osborn
+36,Attuma
+35,Daimon Hellstrom
+35,Gamora
+35,Carlie Cooper
+35,Machine Man
+35,Captain America (Ultimate)
+34,Vision
+34,Forge
+34,Spider-Ham (Larval Earth)
+34,Drax
+32,Squadron Supreme (Earth-712)
+32,S.H.I.E.L.D.
+32,Captain America (Sam Wilson)
+31,Clint Barton
+31,Sif
+31,Boomerang
+31,Millie the Model
+31,Storm
+31,Kraven the Hunter
+31,Odin
+30,Lizard
+30,Ben Grimm
+30,Jean Grey
+30,Sentry (Robert Reynolds)
+30,Aurora
+30,Agent Brand
+30,Madrox
+29,Electro
+29,Hank Pym
+29,Charlie-27
+29,Aero (Aero)
+29,Baron Zemo (Helmut Zemo)
+28,Layla Miller
+28,Harry Osborn
+28,Honey Badger (Gabrielle Kinney)
+28,Chameleon
+28,Spider-Girl (Anya Corazon)
+28,Agent Zero
+27,Killraven
+27,Mysterio
+27,Ancient One
+26,Firestar
+26,Bastion
+26,Avalanche
+25,Brood
+25,Scarlet Spider (Kaine)
+25,Batroc the Leaper
+25,Iron Man (Ultimate)
+24,Hope Summers
+24,Frankenstein's Monster
+24,Boom Boom
+24,Silk (Cindy Moon)
+24,Arcade
+24,Dani Moonstar
+24,Star-Lord (Peter Quill)
+24,Armor (Hisako Ichiki)
+24,Jubilee
+23,Rogue
+23,Spider-Man (Ben Reilly)
+23,Force Works
+22,Chamber
+22,Hydra
+22,Sentinel
+22,Juggernaut
+22,Black Knight (Dane Whitman)
+22,Blindfold
+22,Franklin Richards
+21,Arnim Zola
+21,Araña
+21,Legion
+21,Ms. America (America Chavez)
+21,Black Tarantula
+20,Black Panther (Shuri)
+20,Bethany Cabe
+20,Doop
+20,Falcon
+20,Agatha Harkness
+20,Captain Universe
+20,Hela
+20,Celestials
+20,Blob
+19,Jackal
+19,Captain Britain (Betsy Braddock)
+19,Ben Parker
+19,ClanDestine
+19,X-Factor
+19,Star Brand
+18,Empath
+18,War Machine (James Rhodes)
+18,Daredevil (Ultimate)
+18,Skrulls
+18,Elsa Bloodstone
+18,Agent X (Nijo)
+18,Quicksilver
+18,Rocket Raccoon
+18,Marvel Boy
+18,Alex Power
+18,Sandman
+17,Angel (Ultimate)
+17,Lockjaw
+17,Groot
+17,Ben Reilly
+17,Maestro
+17,Dakota North
+16,Beetle (Abner Jenkins)
+16,Psylocke
+16,Human Torch (Jim Hammond)
+16,Winter Soldier
+16,Doctor Voodoo
+16,Krakoa
+16,Gwen Stacy (Ultimate)
+16,Hulkling
+15,Mockingbird
+15,Magik (Illyana Rasputin)
+15,Omega the Unknown
+15,Crystal
+15,Hobgoblin (Roderick Kingsley)
+15,Rhino
+15,M.O.D.O.K.
+15,Ch'od
+15,Constrictor
+14,Cypher
+14,Penance (Robert Baldwin)
+14,Aaron Stack
+14,Hulk (Ultimate)
+14,Super Hero Squad
+14,Doctor Spectrum
+14,Betty Brant
+14,Chase Stein
+14,Cecilia Reyes
+14,Tigra (Greer Nelson)
+14,Bloodstorm
+14,Starjammers
+14,Professor X
+13,The Twelve
+13,Cyber
+13,New X-Men
+13,Iron Patriot (James Rhodes)
+13,Reptil
+13,Fin Fang Foom
+13,Champions
+13,Damage Control
+13,Invisible Woman
+13,Thor (Goddess of Thunder)
+13,Cable (Deadpool)
+13,Mephisto
+13,Brotherhood of Evil Mutants
+13,Young Avengers
+13,Wolfpack
+13,Blonde Phantom
+13,Mr. Fantastic
+13,Red Hulk
+12,Frank Castle
+12,Karnak
+12,Menace
+12,Crimson Dynamo
+12,Blastaar
+12,Slapstick
+12,Nextwave
+12,May Parker
+12,Peggy Carter (Captain Carter)
+12,3-D Man
+12,X-Statix
+11,X-Babies
+11,Anthem
+11,Amiko
+11,Kabuki
+11,Hyperion (Earth-712)
+11,Gladiator (Kallark)
+11,Wasp
+11,Red Skull
+11,Ultimate Spider-Man (USM)
+11,Hammerhead
+11,Kid Colt
+11,Colossus (Ultimate)
+11,Taskmaster
+11,Death
+11,Baron Zemo (Heinrich Zemo)
+11,Bling!
+11,Baron Mordo (Karl Mordo)
+11,Green Goblin (Barry Norman Osborn)
+10,Toxin (Eddie Brock)
+10,Moon Girl (Lunella Layfayette)
+10,Destiny
+10,Sword Master (Sword Master)
+10,Crossbones
+10,Jigsaw
+10,Happy Hogan
+10,Mariko Yashida
+10,Ghost Rider (Robbie Reyes)
+10,Logan
+10,Quentin Quire
+10,Shatterstar
+10,Callisto
+10,Roland Deschain
+10,Prowler
+10,Kang
+9,Beyonder
+9,Bride of Nine Spiders (Immortal Weapons)
+9,Ezekiel Stane
+9,Anita Blake
+9,Angel (Thomas Halloway)
+9,Scorpion (Mac Gargan)
+9,Diablo
+9,Battlestar
+9,Dust
+9,Doctor Octopus (Ultimate)
+9,GW Bridge
+9,Alex Wilder
+9,Captain Stacy
+9,Red She-Hulk
+9,Shanna the She-Devil
+9,Arclight
+9,Union Jack (Joseph Chapman)
+9,Peter Parker
+9,Marvel Apes
+9,Black Widow (Ultimate)
+9,Firelord
+8,Black Panther (Ultimate)
+8,Dead Girl
+8,Butterfly
+8,Dark X-Men
+8,Secret Warriors
+8,Blue Marvel
+8,Longshot
+8,Cardiac
+8,Abyss
+8,Echo
+8,Polaris
+8,Mary Jane Watson (Ultimate)
+8,Fantomex
+8,Blizzard
+8,Toxin
+8,Bengal
+8,U.S. Agent
+8,Multiple Man
+8,Ego
+8,Gargoyle
+8,Microchip
+7,Sinister Six
+7,Blackheart
+7,Brother Voodoo
+7,Boomer
+7,Amora
+7,Gravity
+7,Mantis
+7,Ultimates
+7,Namorita
+7,Hawkeye (Ultimate)
+7,Nighthawk
+7,Skaar
+7,Caliban
+7,High Evolutionary
+7,Big Bertha
+7,Mole Man
+7,M (Monet St. Croix)
+7,Black Tom
+7,Human Torch (Ultimate)
+7,Edwin Jarvis
+7,Donald Blake
+7,Goliath (Bill Foster)
+7,Jessica Drew
+7,Green Goblin (Harry Osborn)
+7,Spider-Man (Noir)
+7,Weapon X
+6,Silver Sable
+6,Gorgon
+6,Great Lakes Avengers
+6,Debrii
+6,Omega Flight
+6,Calypso
+6,Bushwacker
+6,Dragon Man
+6,Exodus
+6,Frog Thor
+6,Man-Wolf
+6,Giant Man
+6,Robbie Robertson
+6,Hit-Monkey
+6,Corsair
+6,Captain Marvel (Monica Rambeau)
+6,Solo (James Bourne)
+6,Morgan Le Fay
+6,American Eagle (Jason Strongbow)
+6,Fat Cobra
+6,Grey Gargoyle
+6,Vengeance (Michael Badilino)
+6,Kat Farrell
+6,Atlas (Team)
+6,Puma
+6,Prodigy
+6,Graviton
+6,Master Chief
+6,Hulk (Marvel Zombies)
+6,Yondu
+6,Curt Conners
+6,Dora Milaje
+6,Sauron
+6,Mr. Negative
+6,Scorpion (Carmilla Black)
+6,Blok
+6,"Bob, Agent of Hydra"
+6,Karma
+6,Brute
+6,Arachne
+5,Deviants
+5,Mojo
+5,Stingray (Walter Newell)
+5,Misty Knight
+5,Black Cat (Ultimate)
+5,Beak
+5,Jocasta
+5,Leader
+5,Cosmo (dog)
+5,Angel (Angel Salvadore)
+5,Sleepwalker
+5,Morlocks
+5,Black Widow (Yelena Belova)
+5,Ezekiel
+5,Anole
+5,Moonstone
+5,Blockbuster
+5,Hellion
+5,Ender Wiggin
+5,Controller
+5,True Believers
+5,Diamondback (Rachel Leighton)
+5,Hellfire Club
+5,Punisher (2099)
+5,John Jameson
+5,Firebrand
+5,Songbird
+5,Malekith
+5,Wraith
+5,Victor Von Doom
+4,A-Bomb (HAS)
+4,Jack Murdock
+4,Gateway
+4,Eternity
+4,Morlun
+4,Electro (Ultimate)
+4,Storm (Ultimate)
+4,The Hood
+4,Sin
+4,Nick Fury (Ultimate)
+4,Gorilla Man
+4,Maria Hill
+4,Barracuda
+4,Spitfire
+4,Impossible Man
+4,Bloodscream
+4,Namora
+4,Phil Sheldon
+4,Freak
+4,Wolfsbane
+4,Air-Walker (Gabriel Lan)
+4,Omega Red
+4,Crusher Hogan (Ultimate)
+4,Luna Snow (Luna Snow)
+4,Nekra
+4,Kree
+4,Mister Sinister
+4,Grandmaster
+4,Amphibian (Earth-712)
+4,Marvel Zombies
+4,Dormammu
+4,Frenzy
+4,Darwin
+4,Jackpot
+4,Yellow Claw
+4,Killmonger
+4,Magneto (House of M)
+4,Pepper Potts
+4,Ultron
+4,Nomad (Rikki Barnes)
+4,Shocker (Herman Schultz)
+4,Firebird
+4,Enchantress (Amora)
+4,Satana
+4,Ajak
+3,Cloud 9
+3,Nightshade
+3,Bedlam
+3,Glorian
+3,Blazing Skull
+3,Warpath
+3,Night Thrasher (Dwayne Taylor)
+3,Nightmare
+3,Fixer (Paul Norbert Ebersol)
+3,Nomad
+3,Hepzibah
+3,Scarecrow (Ebenezer Laughton)
+3,Darkstar
+3,Sunset Bain
+3,Romulus
+3,Lethal Legion
+3,Cassandra Nova
+3,Carmella Unuscione
+3,George Stacy (Ultimate)
+3,Captain Marvel (Phyla-Vell)
+3,Jean Grey (Ultimate)
+3,The Howling Commandos
+3,Moira MacTaggert
+3,Demogoblin
+3,Deathbird
+3,Jubilee (Age of Apocalypse)
+3,Terrax
+3,Hitman
+3,Jack O' Lantern
+3,Azazel (Mutant)
+3,Owl
+3,Mercury
+3,Matthew Murdock
+3,Scream (Donna Diego)
+3,Blacklash
+3,Nebula
+3,Bug
+3,Iron Patriot
+3,Wolverine (Ultimate)
+3,Count Nefaria
+3,Dragon Lord
+3,Gideon
+3,Rogue (Ultimate)
+3,Genis-Vell
+3,Madame Masque
+3,Madelyne Pryor
+3,Stephen Strange
+3,Miracleman
+3,Doctor Doom (Ultimate)
+3,Outlaw Kid
+3,Marauders
+3,Proteus
+3,Starfox
+3,Devos
+3,Lightspeed
+3,Blackout
+2,Holocaust (Age of Apocalypse)
+2,Alpha Flight (Ultimate)
+2,Sons of the Tiger
+2,Christian Walker
+2,Cerise
+2,War Machine (Ultimate)
+2,Mr. X
+2,Hate-Monger (Adolf Hitler)
+2,Mad Thinker
+2,Bloke
+2,Carnage (Ultimate)
+2,Caretaker
+2,Red Ghost
+2,Daily Bugle
+2,Living Tribunal
+2,Johnny Blaze
+2,Microbe
+2,Ronan
+2,Sleeper
+2,Firestar (Ultimate)
+2,Hannibal King
+2,Sebastian Shaw
+2,Molten Man
+2,Dreaming Celestial
+2,Hobgoblin (Jason Macendale)
+2,Pride
+2,Iron Fist (Orson Randall)
+2,Molly Hayes
+2,Mimic
+2,Hammerhead (Ultimate)
+2,Gertrude Yorkes
+2,Mandarin
+2,Shang-Chi (Ultimate)
+2,Swordsman
+2,Nico Minoru
+2,Dexter Bennett
+2,Bloodaxe
+2,Mystique (Age of Apocalypse)
+2,T'Challa
+2,Forearm
+2,Otto Octavius
+2,Killer Shrike
+2,Black Queen
+2,Patch
+2,Moondragon
+2,Cobalt Man
+2,Rockslide
+2,Living Lightning
+2,Thundra
+2,Lady Deathstrike
+2,H.A.M.M.E.R.
+2,Squadron Sinister
+2,Puppet Master
+2,Abomination (Ultimate)
+2,Living Laser
+2,Masked Marvel (Unrevealed)
+2,Radioactive Man
+2,Praxagora
+2,Ancient One (Ultimate)
+2,Tarantula (Maria Vasquez)
+2,Garrison Kane
+2,Onslaught
+2,Nova (Frankie Raye)
+2,Battering Ram
+2,Jamie Braddock
+2,Madame Hydra
+2,Iceman (Ultimate)
+2,Medusa
+2,Stryfe
+2,Carol Danvers
+2,Meggan
+2,Doctor Strange (Ultimate)
+2,Big Wheel
+2,Masters of Evil
+2,Nitro
+2,Imperial Guard
+2,Lilith
+2,Cyclops (Ultimate)
+2,Cammi
+2,Shard
+2,Harry Osborn (Ultimate)
+2,Mr. Hyde
+2,Gauntlet (Joseph Green)
+2,Mesmero
+1,Green Goblin (Ultimate)
+1,Risque
+1,Chimera
+1,Magus (Adam Warlock)
+1,Karolina Dean 
+1,Phil Coulson (Phil Coulson)
+1,Armory
+1,Living Mummy
+1,Typhoid Mary
+1,Skreet
+1,Proudstar
+1,Chthon
+1,Deena Pilgrim
+1,Pandemic
+1,Mandrill
+1,Photon
+1,Tinkerer
+1,Blue Shield
+1,Speed
+1,Scarlet Witch (Ultimate)
+1,Iron Fist (Bei Bang-Wen)
+1,Switch
+1,Venom (Mac Gargan)
+1,Orphan-Maker
+1,Virginia Dare
+1,Shalla-bal
+1,Crusher Hogan
+1,Detective Soap
+1,Ultimatum
+1,Joystick
+1,Zzzax
+1,Masque
+1,Sabretooth (Age of Apocalypse)
+1,Energizer
+1,Quasar (Wendell Vaughn)
+1,Gorgon (Inhumans)
+1,Lord Hawal
+1,Dagger
+1,Giant-Man (Ultimate)
+1,Sage
+1,Stranger
+1,Valkyrie (Samantha Parrington)
+1,Dark Phoenix
+1,The Order
+1,Magma (Amara Aquilla)
+1,Puck
+1,Husk
+1,Steve Rogers
+1,Baroness S'Bak
+1,Cerebro
+1,Paladin
+1,Mysterio (Francis Klum)
+1,Black Crow
+1,Hedge Knight
+1,Elite
+1,Ultra-Adaptoid
+1,Pixie
+1,She-Hulk (Ultimate)
+1,Tiger Shark
+1,Sabretooth (Ultimate)
+1,Humbug
+1,Bart Rozum
+1,Lockheed
+1,Longshot (Ultimate)
+1,Moon Knight (Ultimate)
+1,Blob (Ultimate)
+1,Mikhail Rasputin
+1,Iron Fist (Wu Ao-Shi)
+1,Belasco
+1,Red Wolf
+1,Doctor Faustus
+1,Venus (Siren)
+1,Sway
+1,Iron Lad
+1,Rhodey
+1,Sally Floyd
+1,Felicia Hardy
+1,Catseye
+1,Prodigy (David Alleyne)
+1,John Wraith
+1,Foggy Nelson
+1,Tana Nile
+1,Maverick (Chris Bradley)
+1,Hypno-Hustler
+1,Hiroim
+1,Randall Flagg
+1,Thor (Ultimate)
+1,Nicolaos
+1,Apocalypse (Ultimate)
+1,Callisto (Age of Apocalypse)
+1,Wendigo
+1,Maelstrom
+1,Speedball (Robert Baldwin)
+1,Titania
+1,Bishop (Ultimate)
+1,Warlock (Technarchy)
+1,Human Robot
+1,Maverick (Christoph Nord)
+1,Abyss (Age of Apocalypse)
+1,Joseph
+1,Hardball
+1,Albion
+1,Morg
+1,Tyrannus
+1,Northstar
+1,Tony Stark
+1,Korvac
+1,Hellions (Squad)
+1,Madame Web (Julia Carpenter)
+1,Surtur
+1,The Watchers
+1,Armadillo
+1,Okoye
+1,Nightcrawler (Ultimate)
+1,Vulture (Adrian Toomes)
+1,Carrion (Malcolm McBride)
+1,Shi'Ar
+1,Sunfire
+1,Liz Osborn
+1,Grim Reaper
+1,Dark Beast
+1,Quicksilver (Age of Apocalypse)
+1,Lizard (Ultimate)
+1,Katie Power
+1,Stature
+1,Weapon Omega
+1,Mastermind
+1,Phantom Reporter
+1,Rachel Grey
+1,Marvex
+1,Rictor
+1,Justice
+1,Illuminati
+1,Shriek
+1,Spectrum
+1,Screwball
+1,Ma Gnuci
+1,Guardian
+1,Thunderbird (John Proudstar)
+1,Quake (Daisy Johnson)
+1,Mother Askani
+1,Quicksilver (Ultimate)
+1,Deathstrike (Ultimate)
+1,Sasquatch (Walter Langkowski)
+1,Reavers (Ultimate)
+1,Blur
+1,Kate Bishop
+1,Silvermane
+1,Paper Doll
+1,Professor X (Ultimate)
+1,Hydro-Man
+1,Jimmy Woo
+1,Debra Whitman
+1,Vulcan (Gabriel Summers)

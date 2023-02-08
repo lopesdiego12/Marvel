@@ -2,6 +2,7 @@ from typing import Any, Dict, List
 
 import pandas as pd
 import csv
+import psycopg2
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.operators.postgres_operator import PostgresOperator
@@ -19,33 +20,47 @@ pub_key = '13661f5daa8d05f9abe2a42a67cd27b5'
 timestamp = '10'
 
 combined_keys = timestamp + priv_key + pub_key
-md5hash = hashlib.md5(combined_keys.encode()).hexdigest()
+md5_hash = hashlib.md5(combined_keys.encode()).hexdigest()
 
 # Get function to retrive data
 def get_api_marvel(endpoint):
-    #sleep(2)
-    url = f'https://gateway.marvel.com:443/v1/public/{endpoint}?ts={timestamp}&apikey={pub_key}&hash={md5hash}'
-    try:
-        r = requests.get(url)
-        out_json = r.json()
-        error = False
-    except ConnectionError as e:
-        print("CONNECTION ERROR: ")
-        print(e)
-        out_json = ''
-        error = True
-    write_json(endpoint, out_json)
-    #return out_json, error
+     # Lista de personagens
+    out = []
 
-    
+    # initial count
+    count = 100
+
+    # initial offset
+    offset = 0
+
+    # limit
+    limit = 100
+
+    while count == limit:
+
+        url = f'https://gateway.marvel.com:443/v1/public/{endpoint}?limit={limit}&offset={offset}&apikey={pub_key}'
+        params = {'ts': timestamp, 'hash': md5_hash}
+
+        response = requests.get(url, params=params)
+        data = response.json()
+        count = data['data']['count']
+        results = data['data']['results']
+
+        for result in results:
+            out.append((result))
+
+        offset += count
+
+        sleep(0.3)
+    write_json(endpoint, out)
 #Save file in airflow docker
-def write_json(endpoint,out_json):
+def write_json(endpoint,out):
       with open(
-        os.path.join('/opt/airflow/dags/files', f'{endpoint}_data.json'), 'w'
+        os.path.join('/opt/airflow/dags/files/', f'{endpoint}_data.json'), 'w'
     ) as outfile:
-        outfile.write(((json.dumps(out_json['data']['results']))) + '\n')
+        outfile.write(json.dumps(out))
 
-#Read file
+#Read charactersfile
 def read_json_characters():
     with open('/opt/airflow/dags/files/characters_data.json') as json_file:
         jsondata = json.load(json_file)
@@ -81,3 +96,14 @@ def read_json_comics():
  
     data_file.close()
 
+def execute_query(query):
+    conn_args = dict(
+        host='172.19.0.3',
+        user='airflow',
+        password='airflow',
+        dbname='airflow',
+        port=5432)
+    conn = psycopg2.connect(**conn_args)
+    cur = conn.cursor()
+    cur.execute(query)
+    return cur.fetchone()

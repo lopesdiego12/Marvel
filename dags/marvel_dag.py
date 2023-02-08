@@ -4,6 +4,7 @@ from pathlib import Path
 from utils import get_api_marvel
 from utils import read_json_characters
 from utils import read_json_comics
+from utils import execute_query
 
 from airflow import DAG
 from airflow.operators.dummy import DummyOperator
@@ -95,10 +96,17 @@ with dag:
         )
     results = DummyOperator(task_id="results")
     
-    final_results = PostgresOperator(
-        task_id="final_results",
+    final_results =  PythonOperator(
+        task_id='final_results', 
+        python_callable=execute_query,
+        op_kwargs={'query':"select count(*), ch.name from characters ch inner join (select substring(substring(co.characters from '\/[0-9]*\d+''') from '\d+')::integer as result from comics co) as t on t.result = ch.id group by ch.name order by 1 desc"}, 
+        dag=dag
+        )
+    
+    export_results2csv = PostgresOperator(
+        task_id="export_results2csv",
         postgres_conn_id="postgres_default",
-        sql="./files/sql/select_comic.sql",
+        sql="./files/sql/export_csv_results.sql",
         )
 
     end_flow_task = DummyOperator(task_id="end_flow")
@@ -106,7 +114,7 @@ with dag:
     start_flow >> [create_table_comics,create_table_characters] >> get_data
     get_data >> [get_data_comics,get_data_characters] >> transformations
     transformations >>[transform_comics,transform_characters] >> load_data_task >> [insert_data_comics,insert_data_characters] >> results
-    results >> final_results >> end_flow_task
+    results >> final_results >> export_results2csv >> end_flow_task
 
 if __name__ == "__main__":
     dag.cli()
