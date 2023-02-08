@@ -34,7 +34,7 @@ quantity of comics they appear in: int
 
 Docker compose 
 
-![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/architecture_design.png)
+![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/arch_design.png)
 
 ---
 
