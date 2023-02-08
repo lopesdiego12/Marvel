@@ -34,7 +34,7 @@ quantity of comics they appear in: int
 
 Docker compose 
 
-![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/arch_design.png)
+![image](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/image/architecture_design.png)
 
 ---
 
@@ -48,7 +48,7 @@ Docker compose
 
 ## Final Results
 
-* [Final results](https://raw.githubusercontent.com/lopesdiego12/Marvel/main/final_results.csv)
+* [Final results](https://github.com/lopesdiego12/Marvel/blob/main/final_results.csv)
 
 
 ## How to run
